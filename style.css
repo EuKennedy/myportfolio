@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.conteiner{
+    height: 100vh;
+}
+
+.linksheader{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.links-txt1{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.links-txt1:hover{
+    transition: 1s;
+    color: #10d6dd;
+    text-decoration:underline;
+}
+
+.txt-header{
+    display: inline-block;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 2.5%;
+    margin-top: 7.5%;
+}
+
+.h1-header{
+    font-size: 250%;
+    color: #ffffff;
+}
+
+.p-header{
+    font-size: 130%;
+}
+
+.p-1{
+    margin-top: -3%;
+}
+
+.animated{
+    font-weight: lighter;
+    color: #10d6dd;
+    font-size: 140%;
+}
+
+.image1{
+    display: flex;
+    width: 30%;
+    margin-top: 10%;
+    margin-right: 10%;
+    float: right;
+}
+
+
+.button-one{
+    display: flex;
+    text-decoration: none;
+    color: #10d6dd;
+    justify-content: center;
+    border: solid 3px #ffffff;
+    border-radius: 15px;
+    float: left;
+    padding: 0.3%;
+}
+
+.button-one:hover{
+    transition: 1s;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bolder;
+}
+
+.icon-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 2%;
+}
+
+.linkedin{
+    width: 90%;
+}
+
+.github{
+    width: 90%;
+}
+
+.instagram{
+    width: 90%;
+}
+
+/**PARTE 2 DO MEU SITE*/
+
+.conteiner-2{
+    height: 85vh;
+    background-color: #2f2f2f;
+}
+
+.image2{
+    display: flex;
+    width: 35%;
+    margin-right: 10%;
+    float: left;
+}
+
+.h1-aboutme{
+    display: flex;
+    font-size: 250%;
+    color: #ffffff;
+    justify-content: center;
+    width: 100%;
+}
+
+.h1-kennedy{
+    font-size: 200%;
+    float: left;
+    color: #10d6dd;
+}
+
+.p-aboutme{
+   text-align: justify;
+   font-size: 105%;
+   display: inline-block;
+   flex-direction: column;
+}
+
+.txt-aboutme{
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 3%;
+    float: right;
+    margin-right: 5%;
+    width: 50%;
+    text-align: center;
+    
+}
+
+
+.h1-skills{
+    font-size: 250%;
+    margin-top: -7%;
+}
+
+.txt-skills{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #10d6dd;
+}
+
+.imageskills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 14rem 14rem;
+    width: 100%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.iconhtml{
+    border: solid 1px rgb(59, 59, 59);
+    border-radius: 25px;
+    background-color: #3f3f3f;
+    margin-right: 10%;
+    filter: grayscale(100%);
+}
+
+.iconhtml:hover{
+  filter: none;
+  transition: 1s;
+}
+
+.iconcss{
+    border: solid 1px rgb(59, 59, 59);
+    border-radius: 25px;
+    background-color: #3f3f3f;
+    margin-left: 10%;
+    filter: grayscale(100%);
+}
+
+.iconcss:hover{
+    filter: none;
+    transition: 1s;
+}
+
+.iconjs{
+    border: solid 1px rgb(59, 59, 59);
+    border-radius: 25px;
+    background-color: #3f3f3f;
+    margin-left: 20%;
+    filter: grayscale(100%);
+}
+
+.iconjs:hover{
+    filter: none;
+    transition: 1s;
+}
+
+.iconreact{
+    border: solid 1px rgb(59, 59, 59);
+    border-radius: 25px;
+    background-color: #3f3f3f;
+    margin-left: 30%;
+    filter: grayscale(100%);
+}
+
+.iconreact:hover{
+    filter: none;
+    transition: 1s;
+}
+
+.iconnodejs{
+    border: solid 1px rgb(59, 59, 59);
+    border-radius: 25px;
+    background-color: #3f3f3f;
+    filter: grayscale(100%);
+}
+
+.iconnodejs:hover{
+    filter: none;
+    transition: 1s;
+}
+
+.iconphp{
+    border: solid 1px #3b3b3b;
+    border-radius: 25px;
+    background-color: #3f3f3f;
+    margin-left: 10%;
+    filter: grayscale(100%);
+}
+
+.iconphp:hover{
+    filter: none;
+    transition: 1s
+}
+
+.icongit{
+    border: solid 1px rgb(59, 59, 59);
+    border-radius: 25px;
+    background-color: #3f3f3f;
+    margin-left: 20%;
+    filter: grayscale(100%);
+}
+
+.icongit:hover{
+    filter: none;
+    transition: 1s;
+}
+
+.icongithub{
+    border: solid 1px rgb(59, 59, 59);
+    border-radius: 25px;
+    background-color: #3f3f3f;
+    margin-left: 30%;
+    filter: grayscale(100%);
+}
+
+
+.icongithub:hover{
+    filter: none;
+    transition: 1s;
+}
+
+.conteiner-3{
+   background-color: #1d1d1d;
+}
+
+.conteiner-4{
+    height: 95vh;
+}
+
+
+.formacion {
+    background-color: var(--eerie-black);
+    width: 100%;
+    height: auto;
+}
+
+.formacion h1 {
+    display: block;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Cooper Hewitt';
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    padding: 6rem 0 5rem 0;
+}
+
+.cards_container--formacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 3rem 2rem;
+}
+
+.cards--formacion {
+    background-color: var(--jet);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 32rem;
+    height: 33rem;
+    margin: 0 1rem 2rem 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.cards--formacion img {
+    width: 25rem;
+}
+
+.container_texto--formacion {
+    margin-bottom: 1.3rem;
+}
+
+img.logo-unal {
+    width: 24rem;
+}
+
+img.logo-one {
+    width: 21rem;
+    margin: 7rem 0 6rem 0;
+}
+
+img.logo-sena {
+    width: 18rem;
+    margin: 2.4rem 0;
+}
+
+.cards--formacion p:nth-child(1) {
+    color: var(--beaver);
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1.8rem;
+    margin-bottom: .7rem;
+}
+
+.cards--formacion p:nth-child(2) {
+    color: var(--light-grey);
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1.4rem;
+}
